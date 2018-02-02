@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/board1"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginBottom="0sp"
+        android:layout_marginTop="0sp"
+        android:src="@drawable/ideas1"/>
+
+    <TextView
+        android:id="@+id/udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/udacity"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="45sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="0sp"/>
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/udacity" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="false"
+        android:layout_above="@id/street"/>
+
+    <TextView
+        android:id="@+id/street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/street"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="false"
+        android:layout_above="@id/contact"/>
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:fontFamily="casual"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HappyNewYear</string>
+    <string name="header">Happy New Year, UDACITY!</string>
+    <string name="footer">From, Yours Truly</string>
+</resources>
